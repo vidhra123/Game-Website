@@ -1,0 +1,444 @@
+body {
+  background-color: white;
+ }
+.header{
+   border: 2px solid black;
+   background-color: black;
+}
+.write{
+   color: white;
+   text-align: left;
+   padding: 0px;
+  
+   margin-top: -10px;
+  
+}
+
+   /* search bar create */
+.write input[type=text] {
+   float: right;
+   padding: 6px;
+   border: none;
+   margin-top: -50px;
+   margin-right: 16px;
+   font-size: 17px;   
+
+
+}
+#navbar a {
+   position: relative; /* Position them relative to the browser window */
+   left: -50px; /* Position them outside of the screen */
+   transition: 0.3s; /* Add transition on hover */
+   padding: 15px; /* 15px padding */
+  
+   text-decoration: none; /* Remove underline */
+   font-size: 20px; /* Increase font size */
+   font-style: bold;
+   color: white; /* White text color */
+   border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+ }
+ 
+ #navbar a:hover {
+   left: 0; /* On mouse-over, make the elements appear as they should */
+ }
+ 
+ /* The about link: 20px from the top with a green background */
+ #home {
+   top: 20px;
+   background-color: black;
+ }
+ 
+ #blog {
+   top: 80px;
+   background-color: black/* Blue */
+ }
+ 
+ #projects {
+   top: 140px;
+   background-color:black; /* Red */
+ }
+ 
+ #contact {
+   top: 200px;
+   background-color: black /* Light Black */
+ }
+ #about {
+   top: 260px;
+   background-color: black;
+ }
+
+
+ * {box-sizing: border-box}
+ 
+.img {
+  display: block;
+  width: 100%;
+  height: 750px;
+}
+
+/** play game create hading file**/
+
+.play_game{
+  margin: 20px 0px;
+  color: white;
+  font-size: 20px;
+  font-style: initial;
+  border: 2px solid black;
+  background-color: black;
+  text-align: center;
+}
+
+.text {
+  position: relative;
+  border: 2px solid silver;
+  background-color: #AAA;
+  display: flex;
+  margin: 8px;
+}
+
+.text p {
+  padding: 2px;
+  position: relative;
+  font-size: 20px;
+  font-family: 'Anton', sans-serif;
+  
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 10px 8px;
+}
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+/* Create Registration form*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+*:focus {
+  outline: none;
+}
+
+.login-box {
+  padding: 20px;
+  position: relative;
+  margin:  50px;
+  width: 93.5%;
+  height: 600px;
+  border-radius: 2px ;
+  box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.4);
+  background-image: url("img/bg4.jpg");
+}
+
+.left {
+  position: relative;
+  top: 90px;
+  left: 100px;
+  box-sizing: border-box;
+  width: 400px; 
+  height: 600px;
+}
+
+.h1 {
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  font-size: 28px;
+  color: white;
+}
+
+
+input[type="text"],
+input[type="password"] {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 320px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #AAA;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-bottom: 2px solid #16a085;
+  color: #16a085;
+  transition: 0.2s ease;
+}
+
+input[type="submit"] {
+  margin-top: 28px;
+  width: 120px;
+  height: 32px;
+  background: #16a085;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+input[type="submit"]:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+.or {
+  position: absolute;
+  top: 280px;
+  left: 700px;
+  width: 40px;
+  height: 40px;
+  background: #DDD;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  line-height: 40px;
+  text-align: center;
+}
+
+.right {
+  position: absolute;
+  top: 80px;
+  right: 100px;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 400px;
+  height: 600px;
+  background: url('https://goo.gl/YbktSj');
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 2px 2px 0;
+}
+
+.right .loginwith {
+  display: block;
+  margin-bottom: 40px;
+  font-size: 28px;
+  color: #FFF;
+  text-align: center;
+}
+
+button.social-signin {
+  margin-bottom: 20px;
+  width: 250px;
+  height: 50px;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500px;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+button.social-signin:hover,
+button.social-signin:focus {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+button.social-signin:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+button.social-signin.facebook {
+  background: #32508E;
+}
+
+button.social-signin.twitter {
+  background: #55ACEE;
+}
+
+button.social-signin.google {
+  background: #DD4B39;
+}
+
+/** create footer file in social media**/
+.footer {
+  border: 2px solid silver;
+  background-color: silver;
+  display: flex;
+  margin: 15px;
+  padding: 10px;
+  
+}
+
+.navi {
+  padding: 0px 70px;
+    
+}
+
+.ul {
+  list-style-type: square;
+}
+
+/* IMAGES: */
+
+li {
+  margin: 0;
+  padding: 10px 0px 10px 0px;
+  list-style: none;
+  text-decoration: none;
+  
+}
+
+/**subscribe creating table **/
+.wrap {
+  padding: 150px;
+  display: flex;
+  font-size: 20px;
+  font-family: 'Anton', sans-serif;
+  
+}
+
+
+
+
+
+.media {
+  float: right;
+  border-radius: 10px solid red;
+  
+}
+
+.fa {
+  margin: 15px;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  
+  }
+  
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.openChatBtn {
+  border-radius: 20%;
+  background-color: black;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 70px;
+}
+
+#chat-btn:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  right: 10px;
+  bottom: -10px;
+  border-left: 10px solid transparent;
+
+  border-right: 2px solid transparent;
+  border-top: 10px solid #62CFC1;
+}
+
+.openChat {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #ff08086b;
+  z-index: 9;
+}
+form {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+form textarea {
+  width: 100%;
+  font-size: 18px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  font-weight: 500;
+  background: #d5e7ff;
+  color: rgb(0, 0, 0);
+  resize: none;
+  min-height: 200px;
+}
+form textarea:focus {
+  background-color: rgb(219, 255, 252);
+  outline: none;
+}
+form .btn {
+  background-color: rgb(34, 197, 107);
+  color: white;
+  padding: 16px 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+form .close {
+  background-color: red;
+}
+form .btn:hover, .openChatBtn:hover {
+  opacity: 1;
+}
